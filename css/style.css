@@ -6,35 +6,44 @@
     width:100%;
 }
 
+:root{
+   --primary-color: #edf2fc;
+   --secondary-color: #212121;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
  .navbar {    
-   background: black;  
+   background: var(--primary-color);  
    font-weight: 700;   
    border: none;
    font-family: "Roboto Mono",monospace;
  }
  .navbar .navbar-brand {
-   color: white;    
+   color: var(--secondary-color);    
  }
  .navbar .navbar-brand:hover{
-   color: white;
+   color: var(--secondary-color);
  }  
 
  .navbar .navbar-nav li a {
-   color: white;
+   color: var(--secondary-color);
  }
  .navbar .navbar-nav li a:hover {
    color: gray;
  }
  
  .navbar-toggle{
-   color: #fff;
+   color: --secondary-color;
    border: 2px solid #fff;
  }   
 
  header {
    background: gray;
    background:url("../images/background.jpg") no-repeat;
-   color: white;
+   color: var(--secondary-color);
    height:620px;
    
  }   
@@ -66,11 +75,11 @@
  }   
  section.about {   
    background: gray;    
-   color: black;   
+   color: var(--primary-color);   
  }  
      
  section.about .btn-outline {    
-     color: black;    
+     color: var(--primary-color);    
      font-size: 20px;    
      border: 2px solid black;   
      background: 0 0;    
@@ -101,7 +110,7 @@
  
  #Myskills .container h2
  {
-	 color: white;
+	 color: var(--secondary-color);
 	 font-family: domine,sans-serif;
  }
  
@@ -124,7 +133,7 @@
     font-weight: bold;
     letter-spacing: 1px;
     font-size: .9em;
-    color: #ffffff;
+    color: var(--primary-color);
 	border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 	padding: 0 20px;
@@ -139,7 +148,7 @@
 	top:0;
 	width:10px;
 	padding: 1px;
-	color: white;
+	color: var(--secondary-color);
  }
 
  .javascript
@@ -149,7 +158,7 @@
 	top: 0;
 	width:10px;
 	padding: 1px;
-	color: white;
+	color: var(--secondary-color);
  }
  
   .python
@@ -159,7 +168,7 @@
 	top: 0;
 	width:10px;
 	padding: 1px;
-	color: white;
+	color: var(--secondary-color);
  }
 
    .android
@@ -169,7 +178,7 @@
 	top: 0;
 	width:10px;
 	padding: 1px;
-	color: white;
+	color: var(--secondary-color);
  }
  
   .c
@@ -179,7 +188,7 @@
 	top: 0;
 	width:10px;
 	padding: 1px;
-	color: white;
+	color: var(--secondary-color);
 
  }
  
@@ -190,7 +199,7 @@
 	top: 0;
 	width:10px;
 	padding: 1px;
-	color: white;
+	color: var(--secondary-color);
  }
  
    .gamedev
@@ -200,7 +209,7 @@
 	top: 0;
 	width:10px;
 	padding: 1px;
-	color: white;
+	color: var(--secondary-color);
  }
  
     .ethical
@@ -210,7 +219,7 @@
 	top: 0;
 	width:10px;
 	padding: 1px;
-	color: white;
+	color: var(--secondary-color);
 
  }
  
@@ -222,7 +231,7 @@
 	top: 0;
 	width:10px;
 	padding: 1px;
-	color: white;
+	color: var(--secondary-color);
 
  }
  
@@ -230,8 +239,8 @@
  
  #about
  {
-	background-color: white;
-	color: black;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
  }
  
  #about .container h3
@@ -249,7 +258,7 @@
  #goals
  {
 	background-color: blue;
-	color: black;
+	color: var(--primary-color);
  }
  
  #goals .container h3
@@ -270,7 +279,7 @@
  }
  #contact .container h2
  {
-	 color: white;
+	 color: var(--secondary-color);
  }
  
 .copy-right {
@@ -281,14 +290,14 @@
 .copy-right p {
 	font-family: 'Ropa Sans', sans-serif;
 	font-size: 1em;
-	color: #fff;
+	color: var(--primary-color);
 	line-height: 1.5em;
 	margin-top: 7px;
 	
 }
  
  .btn-outline {    
-     color: #fff;   
+     color: var(--primary-color);   
      font-size: 20px;    
      border: 2px solid #fff;    
      background: 0 0;    
@@ -297,7 +306,7 @@
  }
  
   .btn-outlinee {    
-     color: black;   
+     color: var(--primary-color);   
      font-size: 20px;    
      border: 2px solid black;    
      background: 0 0;    
